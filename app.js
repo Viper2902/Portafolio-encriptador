@@ -95,7 +95,15 @@ document.addEventListener('DOMContentLoaded', () => {
         return textoFinal
     }
 
+   
 
 
 
 })
+let botoncopy = document.querySelector('.buttonCopy')
+botoncopy.addEventListener('click', copiar = () =>{
+let cajaCopiar = document.querySelector('.textResultant').textContent;
+navigator.clipboard.writeText(cajaCopiar);
+
+});
+
