@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     let encripter = document.getElementById('boton1');
     let desencripter = document.getElementById('boton2')
-    let muneco = document.querySelector('.cuatroPrimaveras')
+    let muneco = document.querySelector('.cuadromuneco')
     let parrafos = document.querySelector('.parrafosImagen')
     let resultText = document.getElementById('textResultant')
 
